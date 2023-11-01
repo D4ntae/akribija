@@ -1,0 +1,23 @@
+body {
+    --bg_main: #EFFAFC;
+    --bg_dark: #1D3461;
+    --text: #E5E7E6;
+    --border: #AAAAAA;
+    --text_dark: #473D3D;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: IslandMoments;
+    src: url("/fonts/IslandMoments-Regular.ttf")
+}
+@font-face {
+    font-family: Inika;
+    src: url("/fonts/Inika-Regular.ttf")
+}
+@font-face {
+    font-family: Geist;
+    src: url("/fonts/Geist-Regular.otf")
+}
