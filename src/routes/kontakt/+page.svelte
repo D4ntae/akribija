@@ -8,16 +8,17 @@
     </div>
     <div class="info-container">
         <h3>Adresa</h3>
-        <p class="text">Trg Eugena Kumičić 10, 48000 Koprivnica</p>
+        <p class="text">Trg Eugena Kumičića 10, 48000 Koprivnica</p>
     </div>
     <div class="info-container">
         <h3>Osnovi podatci</h3>
         <p class="text">Telefon: 091 400 1828</p>
-        <p class="text">Email: sonja.delimar@gmail.com</p>
+        <p class="text">E-mail: sonja.delimar@gmail.com</p>
+        <p class="text">akribija2023@gmail.com</p>
     </div>
     <div class="info-container">
         <h3>Žiro račun</h3>
-        <p class="text">HR120123120123010</p>
+        <p class="text">HR4023600001103096454</p>
     </div>
 </div>
 

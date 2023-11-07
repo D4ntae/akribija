@@ -1,7 +1,9 @@
 <div class="container">
     <div class="top-container">
         <div class="top-text">
-            <p class="lektura-text"><b>Lektura</b> je proces u kojemu se autorski radi ispravlja jezično i pravopisno.</p>
+            <p class="lektura-text"><b>Lektura</b> je proces u kojemu se autorski rad ispravlja i uređuje
+jezično i pravopisno u skladu s pravilima standardnoga
+hrvatskog jezika.</p>
         </div>
         <div class="books-container">
             <img class="books" src="/images/books.jpg" alt="A stack of books">
@@ -9,14 +11,14 @@
     </div>
     <div class="form-container">
         <h1 class="title">Pošaljite nam upit</h1>
-        <form class="form" action="/">
+        <form class="form" action="/" method="POST">
             <div id="form-split">
-                <input id="name" type="text" placeholder="Ime...">
-                <input id="lastname" type="text" placeholder="Prezime...">
+                <input name="name" id="name" type="text" placeholder="Ime...">
+                <input name="lastname" id="lastname" type="text" placeholder="Prezime...">
             </div>
-            <input id="subject" type="text" placeholder="Predmet...">
-            <textarea rows=8 cols=34 id="content" placeholder="Poruka..."></textarea>
-            <input type="file">
+            <input name="subject" id="subject" type="text" placeholder="Predmet...">
+            <textarea rows=8 cols=34 name="content" id="content" placeholder="Poruka..."></textarea>
+            <input name="file" type="file">
             <div class="send-container">
                 <input id="send-button" value="Zatraži lekturu" type="submit">
             </div>
