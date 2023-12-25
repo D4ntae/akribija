@@ -21,6 +21,7 @@
 	"type": "module",
 	"dependencies": {
 		"nodemailer": "^6.9.7",
+		"nodemon": "^3.0.2",
 		"svelte-email": "^0.0.4"
 	}
 }

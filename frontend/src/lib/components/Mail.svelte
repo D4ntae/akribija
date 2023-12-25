@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Html, Text } from "svelte-email"
+    import { Hr, Html, Text } from "svelte-email"
     export let name: string;
     export let lastname: string;
     export let subject: string;
@@ -7,7 +7,8 @@
 </script>
 
 <Html lang="hr">
-    <Text>
-        {name} {lastname} {subject} {content}
-    </Text>
+    <Text>Ime: {name}</Text>
+    <Text>Prezime: {lastname}</Text>
+    <Hr />
+    <Text>{content}</Text>
 </Html>

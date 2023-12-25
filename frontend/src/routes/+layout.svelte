@@ -8,6 +8,7 @@
     </div>
     <div class="right">
         <a href="/" class="link">Naslovna</a>
+        <a href="/savjeti" class="link">Savjeti</a>
         <a href="/cjenik" class="link">Cjenik</a>
         <a href="/kontakt" class="link">Kontakt</a>
     </div>

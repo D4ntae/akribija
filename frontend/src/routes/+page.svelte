@@ -11,7 +11,7 @@ hrvatskog jezika.</p>
     </div>
     <div class="form-container">
         <h1 class="title">Pošaljite nam upit</h1>
-        <form class="form" action="/" method="POST">
+        <form class="form" enctype="multipart/form-data" action="/" method="POST">
             <div id="form-split">
                 <input name="name" id="name" type="text" placeholder="Ime...">
                 <input name="lastname" id="lastname" type="text" placeholder="Prezime...">
