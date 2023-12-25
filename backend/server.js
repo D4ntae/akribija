@@ -47,6 +47,28 @@ app.post("/api/auth", (req, res, next) => {
   })
 })
 
+app.delete("/api/savjeti/delete/:id", (req, res) => {
+  if (auth === false) {
+    res.status(403).send("Unauthorized")
+  }
+
+  db.run("DELETE FROM savjeti WHERE id = ?", [req.params.id], (err) => {
+    if (err) {
+      res.status(400).send("Bad request")
+    } else {
+      res.status(200).send("Ok")
+    }
+  })
+})
+
+app.get("/api/savjeti/delete", (req, res) => {
+  if (auth === false) {
+    res.status(403).send("Unauthorized")
+  } else {
+    res.sendFile(path.join(__dirname, '/remove.html'))
+  }
+})
+
 app.get("/api/savjeti/add", (req, res) => {
   if (auth === false) {
     res.status(403).send("Unauthorized")
