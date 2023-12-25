@@ -58,6 +58,12 @@ app.get("/api/auth", (req,res) => {
   res.sendFile(path.join(__dirname, '/auth.html'));
 })
 
+app.get("/api/savjeti/all", (req, res) => {
+  db.all("SELECT id, title FROM savjeti", (err, rows) => {
+    res.json(JSON.parse(JSON.stringify(rows)))
+  })
+})
+
 app.get('/api/savjeti/:id', (req, res) => {
   console.log(req.params.id)
   db.get("SELECT * FROM savjeti WHERE id = ?", [req.params.id], (err, row) => {
@@ -93,6 +99,7 @@ app.post("/api/savjeti/add", (req, res) => {
     res.status(200).send("OK")
   })
 })
+
 
 
 app.listen(port, () => {
