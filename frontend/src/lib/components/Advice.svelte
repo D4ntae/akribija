@@ -1,6 +1,10 @@
 <script lang="ts">
     export let title:string;
     export let id: Number;
+
+    if (title.length > 20) {
+        title = title.slice(0, 17) + "..."
+    }
 </script>
 
 <a href="/savjeti/{id}">
@@ -32,4 +36,17 @@
         padding: 0px;
         margin: 18px;
     }
+
+    @media screen and (max-width: 768px) {
+        .break {
+            border: 1px dashed grey;
+            width: 80%;
+        }
+
+        .container {
+            width: 100vw;
+            align-items: center;
+        }
+    }
+
 </style>

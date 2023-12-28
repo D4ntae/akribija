@@ -7,6 +7,11 @@ body {
 
     margin: 0px;
     padding: 0px;
+    background-color: var(--bg_main);
+}
+
+html {
+    background-color: var(--bg_main);
 }
 
 @font-face {

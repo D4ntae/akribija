@@ -21,7 +21,6 @@
     h3 {
         font-size: 2.2rem;
         font-family: Inika;
-        
     }
 
     .desc {

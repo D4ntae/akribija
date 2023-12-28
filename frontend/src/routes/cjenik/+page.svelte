@@ -41,4 +41,15 @@
         border: 1px solid lightgray;
         width: 800px;
     }
+
+    @media screen and (max-width: 768px) {
+        h1 {
+            text-align: center;
+        }
+
+        .break {
+            border: 1px solid lightgray;
+            width: 80%;
+        }
+    }
 </style>
