@@ -40,5 +40,16 @@
         height: auto
     }
 
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 100vw;
+        }
+
+
+        img {
+            width: 90vw;
+            height: auto
+        }
+    }
     
 </style>
